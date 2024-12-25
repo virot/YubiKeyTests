@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposeIYubiKeyDeviceListener", "DisposeIYubiKeyDeviceListener.csproj", "{E82274CE-C4A1-4089-ACF8-1677AB11B4E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fido2Session_1.12", "..\fido2Session_1.12\fido2Session_1.12.csproj", "{3B104BE3-AAF1-49C2-B1F9-AF1FDD60BCF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82274CE-C4A1-4089-ACF8-1677AB11B4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82274CE-C4A1-4089-ACF8-1677AB11B4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82274CE-C4A1-4089-ACF8-1677AB11B4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82274CE-C4A1-4089-ACF8-1677AB11B4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B104BE3-AAF1-49C2-B1F9-AF1FDD60BCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B104BE3-AAF1-49C2-B1F9-AF1FDD60BCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B104BE3-AAF1-49C2-B1F9-AF1FDD60BCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B104BE3-AAF1-49C2-B1F9-AF1FDD60BCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E78DFCC2-FF0A-4CE3-ABEE-E6C779BF2A6F}
+	EndGlobalSection
+EndGlobal

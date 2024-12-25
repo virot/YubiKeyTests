@@ -12,6 +12,9 @@ Slot slot = Slot.ShortPress;
 Log.ConfigureLoggerFactory(builder => builder.ClearProviders());
 
 var yubiKey = YubiKeyDevice.FindAll().First();
+
+Console.WriteLine($"YubiKey: {yubiKey.FormFactor}, firmware: {yubiKey.FirmwareVersion}");
+//Console.ReadLine();
 using (var otpSession = new OtpSession(yubiKey))
 {
     if (slot == Slot.ShortPress) { Console.WriteLine($"Configuration state of {slot}: {otpSession.IsShortPressConfigured}"); }
@@ -35,7 +38,9 @@ using (var otpSession = new OtpSession(yubiKey))
     // Since we didnt set any password DeleteSlot should work
     try
     {
+        Log.ConfigureLoggerFactory(builder => builder.AddConsole());
         otpSession.DeleteSlot(slot);
+        Log.ConfigureLoggerFactory(builder => builder.ClearProviders());
     }
     catch (Exception e)
     {

@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fido2_empty_fido", "fido2_e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestrictNFC", "RestrictNFC\RestrictNFC.csproj", "{11494476-3A0D-4467-8CBA-A9106542C558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fido2_TrySetPinConfig", "fido2_TrySetPinConfig\fido2_TrySetPinConfig.csproj", "{E1F542CE-0CFA-4117-A862-82196017B070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{11494476-3A0D-4467-8CBA-A9106542C558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11494476-3A0D-4467-8CBA-A9106542C558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11494476-3A0D-4467-8CBA-A9106542C558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F542CE-0CFA-4117-A862-82196017B070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F542CE-0CFA-4117-A862-82196017B070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F542CE-0CFA-4117-A862-82196017B070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F542CE-0CFA-4117-A862-82196017B070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
